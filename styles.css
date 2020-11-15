@@ -159,12 +159,19 @@ main {
     font-family: "Inter, Sans-serif";
 }
 
+#Monedas {
+    color: var(--bitcoin-orange);
+}
+
+#Comisiones {
+    color: var(--secondary-blue);
+}
+
 .main-currency-table .currency-table--title {
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
-    color: var(--bitcoin-orange);
 }
 
 .currency-table--container {
@@ -234,13 +241,20 @@ main {
     background-repeat: no-repeat;
 }
 
+.orange {
+    background-color: var(--soft-orange);
+}
+
+.blue {
+    background-color: var(--soft-blue);
+}
+
 .currency-table--date {
     width: 190px;
     height: 30px;
     margin: 0 auto;
     margin-top: 15px;
     padding: 8px;
-    background-color: var(--soft-orange);
     border-radius: 8px;
 }
 
